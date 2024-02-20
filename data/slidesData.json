@@ -1,26 +1,56 @@
 [
   {
-    "title": "Per aliquam est tristique luctus himenaeos augue",
-    "text_left": "Cubilia diam dictumst leo consectetur a pulvinar elit mus dapibus, vulputate per nascetur proin erat aliquet sem ad dictum, nunc accumsan dolor ultricies venenatis potenti ligula eget. Curabitur dapibus inceptos diam ante torquent eros venenatis dictumst arcu cras laoreet morbi lorem ex nullam, aenean fames tempus finibus ornare cubilia per ipsum tellus iaculis libero varius blandit. Vitae ligula eleifend lacus ipsum id conubia suspendisse nunc elit egestas scelerisque consectetur integer lectus, turpis eget luctus facilisis sem at tincidunt netus parturient consequat enim penatibus.  <br>This is the <strong>first</strong> slide.",
-    "image_left": "/img1.png",
-    "text_right": "Cubilia diam dictumst leo consectetur a pulvinar elit mus dapibus, vulputate per nascetur proin erat aliquet sem ad dictum, nunc accumsan dolor ultricies venenatis potenti ligula eget. Curabitur dapibus inceptos diam ante torquent eros venenatis dictumst arcu cras laoreet morbi lorem ex nullam, aenean fames tempus finibus ornare cubilia per ipsum tellus iaculis libero varius blandit. Vitae ligula eleifend lacus ipsum id conubia suspendisse nunc elit egestas scelerisque consectetur integer lectus, turpis eget luctus facilisis sem at tincidunt netus parturient consequat enim penatibus.  <br>This is the <strong>first</strong> slide.",
-    "image_right": "/img1.png",
+    "title": "Github",
+    "text_left": "- WHY is GitHub? <br> - Version Control<br> - Code Review<br> - GitHub Actions<br> - GitHub Pages<br> - Containers <br> - Packages <br> - Security<br>",
+    "image_right": "/intro.png",
     "background_image": "/bg.jpg"
   },
   {
-    "title": "Slide 2",
-    "text_left": "This is the <em>second</em> slide. Visit <a href='https://example.com'>Example</a>.",
-    "image_left": "/img1.png",
-    "text_right": "This is the <em>second</em> slide. Visit <a href='https://example.com'>Example</a>.",
-    "image_right": "/img1.png",
+    "title": "WHY is GitHub?",
+    "text_left": "GitHub is a web-based platform built on Git, a distributed version control system.<br><br> - Repositories <br> - Branching <br> - Pull Requests <br> - Collaboration<br> - Versioning<br>",
+    "image_right": "/what-is-github.png",
     "background_image": "/bg.jpg"
   },
   {
-    "title": "Slide 2",
-    "text_left": "This is the <em>second</em> slide. Visit <a href='https://example.com'>Example</a>.",
-    "image_left": null,
-    "text_right": null,
-    "image_right": "/img1.png",
+    "title": "Version Control",
+    "text_left": "Git versioning lets you keep track of all the changes you make to your code as you work on it. It's like a time machine for your project, allowing you to roll back to previous versions if things go south. Plus, it's super handy for collaborating with others on the same codebase without stepping on each other's toes.",
+    "image_right": "/version-control.png",
+    "background_image": "/bg.jpg"
+  },
+  {
+    "title": "Code Review",
+    "text_left": "Code reviews are like having a fresh pair of eyes on your code before it goes live. They're not just about catching bugs; they're also about improving code quality, sharing knowledge, and ensuring consistency across the team. Plus, they're a great way to learn from others and grow as a developer.",
+    "image_right": "/code-review.png",
+    "background_image": "/bg.jpg"
+  },
+  {
+    "title": "GitHub Actions",
+    "text_left": "GitHub Actions automate workflows directly within GitHub repositories. You can build, test, and deploy your code without leaving the platform. By defining custom workflows in YAML files, you can automate tasks such as testing pull requests, releasing new versions, and notifying team members about changes, streamlining your development process and improving collaboration.<br><br><br><br> <a class=\"underline\" target=\"_blank\" href=\"https://www.youtube.com/watch?v=gLJdrXPn0ns&t=2402s&ab_channel=TechWorldwithNana\">DevSecOps Tutorial for Beginners | CI Pipeline with GitHub Actions and Docker Scout\n</a><br> <a class=\"underline\" target=\"_blank\" href=\"https://www.youtube.com/watch?v=R8_veQiYBjI&ab_channel=TechWorldwithNana\">GitHub Actions Tutorial</a>",
+    "image_right": "/actions.png",
+    "background_image": "/bg.jpg"
+  },
+  {
+    "title": "GitHub Pages",
+    "text_left": "GitHub Pages is a web hosting service offered by GitHub that allows individuals and organizations to host a website directly from a GitHub repository for free. It is designed for static web pages, including HTML, CSS, and JavaScript, and is perfect for personal, organization, or project websites. GitHub Pages seamlessly integrates with Jekyll for site generation, making it an ideal solution for documentation, blogs, and download-only web projects.",
+    "image_right": "/github-pages.png",
+    "background_image": "/bg.jpg"
+  },
+  {
+    "title": "Containers",
+    "text_left": "GitHub Container Registry (GHCR), you can host your Docker containers directly on GitHub, accessible via URLs starting with ghcr.io. This integration streamlines your development workflow by keeping your code and its associated containers in one centralized location, enhancing collaboration and simplifying deployment processes. Plus, it offers seamless integration with GitHub Actions, enabling automated container builds and deployments right from your repositories.",
+    "image_right": "/containers.png",
+    "background_image": "/bg.jpg"
+  },
+  {
+    "title": "Packages",
+    "text_left": "GitHub Packages provides a secure and centralized platform for hosting various package types, including npm packages. By storing your npm packages on GitHub, accessible via URLs like npm.pkg.github.com, you ensure reliability, security, and version control in one place. This integration simplifies dependency management, enhances collaboration, and seamlessly integrates with your GitHub workflows, enabling automated package publishing and consumption directly from your repositories.<br><br> - npm packages<br> - Maven packages <br> - Docker containers<br> - NuGet packages<br> - RubyGems<br> - Python packages <br> - Debian packages<br>",
+    "image_right": "/packages.png",
+    "background_image": "/bg.jpg"
+  },
+  {
+    "title": "Security",
+    "text_left": "GitHub's Dependabot automatically scans your project's dependencies for vulnerabilities and suggests updates to keep them secure. It creates pull requests for outdated dependencies and integrates seamlessly with GitHub Actions for automated testing. With customizable policies, you can tailor Dependabot's behavior to fit your project's needs and ensure timely updates while maintaining stability and security.\n\n\n\n\n",
+    "image_right": "/security.png",
     "background_image": "/bg.jpg"
   }
 ]
